@@ -1,2 +1,2 @@
-# Bootstrap
+# Изучаю Bootstrap 
 Bootstrap
