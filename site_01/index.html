@@ -15,7 +15,7 @@
             <div class="row">
                 <div class="col-12">
                     <h1 class="text-center text-white">Видео курс для начинающих по верстке HTML & CSS</h1>
-                    <div class="itd_play">
+                    <div class="itd_play" data-bs-toggle="modal" data-bs-target="#myModal"></div>
                         <div class="itd_triangle"></div>
                     </div>
 
@@ -29,15 +29,15 @@
 
     <footer id="footer"></footer>
 
-    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal fade" id="myModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog">
           <div class="modal-content">
             <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+              <h5 class="modal-title" id="exampleModalLabel">Трейлер курса</h5>
               <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-              
+              <div class='embed-container'><iframe src='https://www.youtube.com/embed/b00RCluE5RM' frameborder='0' allowfullscreen></iframe></div>
             </div>
           </div>
         </div>
@@ -48,3 +48,5 @@
     
 </body>
 </html>
+
+.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
