@@ -99,7 +99,7 @@ footer {
     background-color: var(--color2)
 }
 
-.about, .shedule, .author  {
+.about, .shedule, .author, .buy  {
     background-color: #eee;
 }
 .about i {
