@@ -1,0 +1,25 @@
+header {
+    background: url(../site_01/img/pattern-vchk.odg), linear-gradient(to right,  rgba(170,34,34,1) 0%,rgba(191,160,103,1) 100%);
+    background-size: contain;
+    margin: 0px;
+    padding: 60px ;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: azure;
+}
+
+a, p {
+    font-size: 21px;
+}
+
+h2 {
+    color: rgb(53, 51, 41);
+}
+
+section {
+    padding: 0;
+    margin: 0;
+}
