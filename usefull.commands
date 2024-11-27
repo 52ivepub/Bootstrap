@@ -5,3 +5,11 @@
   <div class="row align-items-center justify-content-center"></div> # выравнивание по горизовнтали и по вертикали по центру 
 
   class="img-fluid" # чтобы изображение было адаптивным
+
+<div class="row align-items-start"> # столбцы сверху(середина, снизу)
+
+<link rel="stylesheet" href="bootstrap-icons-1.11.3/font/bootstrap-icons.css"> #  подключить  bootstrap-icons
+
+
+
+<i class="bi-alarm" style="font-size: 6rem; color: rgb(237, 100, 100);"></i> # # подключить конкретную иконку 
